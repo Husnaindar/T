@@ -1,0 +1,154 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00A9FF;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, #009AFF, #00A9FF);
+  background-size: 100% 5px;
+  background-position: 40px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 70px;
+}
+
+.services {
+  padding: 3em;
+  
+}
+
+.services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services li {
+  margin: 20px;
+  width: 200px;
+}
+
+.pricing {
+  padding: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  background-color: #007DE5;
+  color: #FFFFFF;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 350px;
+  margin: 40px auto;
+  padding: 1px;
+}
+
+.service {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service h3 {
+  margin: 0;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn::after {
+  content: "";
+  background-image: url('arrow.png'); /* replace with your arrow image */
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.update {
+  background-color: #ffc107;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
